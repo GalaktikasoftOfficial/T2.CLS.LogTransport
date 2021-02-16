@@ -1,0 +1,113 @@
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CLT00001">
+    <value>Property {propertyName} ignored</value>
+  </data>
+  <data name="CLT00002">
+    <value>Error sending log in ClickHouse: {content}</value>
+  </data>
+  <data name="CLT00003">
+    <value>Created Output plugin. Type '{pluginName}'. SystemName '{systemName}'</value>
+  </data>
+  <data name="SLT00001">
+    <value>LogController created</value>
+  </data>
+  <data name="SLT00002">
+    <value>~LogController End</value>
+  </data>
+  <data name="SLT00003">
+    <value>~LogController Start</value>
+  </data>
+  <data name="SLT00004">
+    <value>Method Metrics() =&gt;{metricData}</value>
+  </data>
+  <data name="SLT00005">
+    <value>Save log from system: {system}</value>
+  </data>
+  <data name="SLT00006">
+    <value>Not save log for system '{CLS}'</value>
+  </data>
+  <data name="SLT00007">
+    <value>Invalid input line: {line}</value>
+  </data>
+  <data name="SLT00008">
+    <value>~LogMetrics Start</value>
+  </data>
+  <data name="SLT00009">
+    <value>~LogMetrics End</value>
+  </data>
+  <data name="SLT00010">
+    <value>~PluginFactory Start</value>
+  </data>
+  <data name="SLT00011">
+    <value>~PluginFactory End</value>
+  </data>
+  <data name="SLT00012">
+    <value>~PluginFactory</value>
+  </data>
+  <data name="SLT00013">
+    <value>Create Output {pluginType} plugin. SystemName: {systemName}</value>
+  </data>
+  <data name="SLT00014">
+    <value>Plugin not created.</value>
+  </data>
+  <data name="SLT00019">
+    <value>Main buffer settings config: {bufferSettingsConfig}</value>
+  </data>
+  <data name="SLT00020">
+    <value>Child settings empty. Parent config is applied.</value>
+  </data>
+  <data name="SLT00021">
+    <value>Child and parent settings merged.</value>
+  </data>
+  <data name="SLT00022">
+    <value>Plugin output config: {clickHousePluginConfig}</value>
+  </data>
+  <data name="SLT00023">
+    <value>Plugin output config: {forwardOutputConfig}</value>
+  </data>
+  <data name="SLT00024">
+    <value>Child settings empty. Parent config is applied.</value>
+  </data>
+  <data name="SLT00025">
+    <value>Child and parent settings merged.</value>
+  </data>
+</root>
