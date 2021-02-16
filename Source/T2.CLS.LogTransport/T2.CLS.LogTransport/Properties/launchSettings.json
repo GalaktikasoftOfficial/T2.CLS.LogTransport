@@ -1,0 +1,48 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49882",
+      "sslPort": 0
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+	"profiles": {
+		"IIS Express": {
+			"commandName": "IISExpress",
+			"commandLineArgs": "--worker",
+			"launchUrl": "weatherforecast",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			}
+		},
+		"T2.CLS.LogTransport": {
+			"commandName": "Project",
+			"commandLineArgs": "",
+			"launchUrl": "weatherforecast",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"applicationUrl": "http://localhost:5010"
+		},
+		"T2.CLS.LogTransport.Worker": {
+			"commandName": "Project",
+			"commandLineArgs": "--worker",
+			"launchUrl": "weatherforecast",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"applicationUrl": "http://localhost:5011"
+		},
+		"T2.CLS.LogTransport.Forwarder": {
+			"commandName": "Project",
+			"commandLineArgs": "--forwarder",
+			"launchUrl": "weatherforecast",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"applicationUrl": "http://localhost:5012"
+		}
+	}
+}
